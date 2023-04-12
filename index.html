@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <title>Astro Foto</title>
+  </head>
+  <body class="bg-slate-800 text-white">
+    <div class="text-center my-3 mx-auto">
+      <h1 class="text-4xl mb-4 font-bold">Foto Astronômica do Dia</h1>
+      <input class="rounded p-1 text-gray-500" id="today" type="date" />
+      <button class="rounded bg-teal-700 p-1 hover:bg-teal-900 type="submit" name="button">
+        Enviar
+      </button>
+    </div>
+
+    <img
+      class="bg-gray-900 rounded max-w-full p-1 mx-auto"
+      src="./public/img/placeholder.png"
+    />
+    <iframe class="bg-gray-900 w-full max-w-xl aspect-video rounded max-w-full p-1 mx-auto" style="display: none;" src=""></iframe>
+    <div class=" my-5 mx-auto">
+      <h2 class="text-xl font-bold">Description</h2>
+      <p class="text-justify"></p>
+    </div>
+
+    <script type="text/javascript" src="./public/js/main.js"></script>
+  </body>
+</html>
